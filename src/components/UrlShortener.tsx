@@ -59,7 +59,8 @@ export default function UrlShortener() {
       {shortUrl && (
         <div style={{ marginTop: 24 }}>
           <p>
-            ✅ Here's your short link: <br />
+            <span>{`✅ Here's your short link:`}</span>
+            <br />
             <a href={shortUrl} target="_blank" rel="noreferrer">
               {shortUrl}
             </a>
